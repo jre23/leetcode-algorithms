@@ -3085,13 +3085,16 @@ let nums5 = [
   77916,
 ];
 
-console.log(threeSum(nums0)); // expected [[-1, -1, 2], [-1, 0, 1]]
-console.log(threeSum(nums1)); // expected [[0, 0, 0]]
-console.log(threeSum(nums2)); // expected [[-1, 0, 1]]
-console.log(threeSum(nums3)); // expected [[-2,0,2],[-2,1,1]]
+let nums6 = [-1, -1, -1, -1, -1, 0, 1, 1, 1, 1, 1];
+
+// console.log(threeSum(nums0)); // expected [[-1, -1, 2], [-1, 0, 1]]
+// console.log(threeSum(nums1)); // expected [[0, 0, 0]]
+// console.log(threeSum(nums2)); // expected [[-1, 0, 1]]
+// console.log(threeSum(nums3)); // expected [[-2,0,2],[-2,1,1]]
 // console.log(threeSum(nums4));
 
 // console.log(threeSum(nums5));
+console.log(threeSum(nums6), "expected [-1, 0, 1]"); // expected [[-2,0,2],[-2,1,1]]
 
 // if (
 //   (j === nums.length - 2 && i < nums.length - 3) ||
